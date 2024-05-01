@@ -269,31 +269,31 @@ public class Main {
 
                             System.out.println("Generate Subsektor dan JUU");
                             System.out.println("Memuat...");
-                            if(kodeKju.equals("1")){
+                            if(kodeKju.matches("1")){
                                 kodeTanPang = "1";
                             }else{
                                 kodeTanPang = "0";
                             }
 
-                            if (kodeKju.equals("2")) {
+                            if (kodeKju.matches("2")) {
                                 kodeHortikultura = "1";
                             } else {
                                 kodeHortikultura = "0";
                             }
 
-                            if (kodeKju.equals("9")||kodeKju.equals("10")||kodeKju.equals("11")) {
+                            if (kodeKju.matches("9")||kodeKju.matches("10")||kodeKju.matches("11")) {
                                 kodePeternakan = "1";
                             } else {
                                 kodePeternakan = "0";
                             }
 
-                            if (kodeKju.equals("4")||kodeKju.equals("5")||kodeKju.equals("6")) {
+                            if (kodeKju.matches("4")||kodeKju.matches("5")||kodeKju.matches("6")) {
                                 kodeKehutanan = "1";
                             } else {
                                 kodeKehutanan = "0";
                             }
  
-                            if (kodeKju.matches("^7[a-f]$") || kodeKju.equals("8")) {
+                            if (kodeKju.matches("^7[a-f]$") || kodeKju.matches("8")) {
                                 kodePerikanan = "1";
                             } else {
                                 kodePerikanan = "0";

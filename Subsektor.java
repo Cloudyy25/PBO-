@@ -54,8 +54,8 @@ public class Subsektor {
         return String.format("%7s | %12s | %10s | %10s | %10s | %10s", tanamanPangan.getValue(),
                                      holtikultura.getValue(),
                                      perkebunan.getValue(),
-                                     kehutanan.getValue(),
                                      peternakan.getValue(),
+                                     kehutanan.getValue(),
                                      perikanan.getValue());
     }
 }
